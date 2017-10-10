@@ -1,0 +1,9 @@
+{
+  "name": "bower-workflow",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "~1.10.0",
+    "bootstrap": "~3.3.1"
+  }
+}
+
