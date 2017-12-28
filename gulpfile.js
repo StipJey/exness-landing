@@ -113,8 +113,8 @@ gulp.task('browser-sync', function() {
 gulp.task('watch', function() {
 
   // Bower JS and CSS files are performed once at start - performance reasons
-  gulp.run('css_vendor');
-  gulp.run('js_vendor');
+  gulp.watch('css_vendor');
+  gulp.watch('js_vendor');
 
   gulp.watch(path.css_src, ['css_task']);
   gulp.watch(path.js_src, ['js_task']);
